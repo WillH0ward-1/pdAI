@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box;
+	font-family: 'DejaVu Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url('/Users/macuser/Documents/GitHub/PureDataGPT/fonts/DejaVuSansMono.ttf');
+  }
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.title {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.title h1 {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 0px;
+}
+
+.item {
+	background-color: #f5f5f5;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.item img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.item h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.item p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.title {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.title h1 {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 20px;
+}
+
+.item {
+	background-color: #f5f5f5;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.item img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.item h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.item p {
+	font-size: 16px;
+	line-height: 1.5;
+}
